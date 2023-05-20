@@ -68,8 +68,9 @@ main {
 }
 
 .user-info {
-  border-bottom: 1px solid var(--line-col);
+  border-bottom: 1px solid hsla(0, 0%, 59%, 0.25);
   padding-bottom: 2rem;
+  gap: 1rem;
 }
 
 .user-stats {

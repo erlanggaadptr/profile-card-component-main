@@ -1,7 +1,7 @@
 :root {
   --main-bg-col: hsl(185, 75%, 39%);
-  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
-  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --h-col: hsl(229, 23%, 23%);
+  --p-col: hsl(227, 10%, 46%);
   --line-col: hsl(0, 0%, 59%);
   --font-family: 'Kumbh Sans', sans-serif;
 }
@@ -13,4 +13,15 @@
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.bold-text {
+  color: var(--h-col);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.light-text {
+  color: var(--p-col);
+  font-weight: 400;
 }
