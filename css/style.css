@@ -44,4 +44,7 @@ main {
   box-shadow: 0 5px 50px 10px rgba(0, 0, 0, 0.25);
   overflow: hidden;
   z-index: 1;
+  align-items: center;
+  justify-content: center;
+  
 }
