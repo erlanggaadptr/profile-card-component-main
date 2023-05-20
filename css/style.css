@@ -49,6 +49,10 @@ main {
   justify-content: center;
 }
 
+.user-bg {
+  width: 100%;
+}
+
 .user-img {
   transform: translate(0, -50%);
 }
