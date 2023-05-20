@@ -20,32 +20,46 @@
     <title>Frontend Mentor | Profile card component</title>
   </head>
   <body>
-    <main class="flex-row">
-      <div class="card flex-column">
-        <div class="user-bg">
-          <img src="images/bg-pattern-card.svg" alt="BG Pattern Card" />
-        </div>
-        <div class="user">
-          <div class="user-img">
-            <img src="images/image-victor.jpg" alt="Profile Picture" />
+    <main>
+      <img
+        class="bg-pattern"
+        id="bg-pattern-top"
+        src="images/bg-pattern-top.svg"
+        alt="BG Pattern Top"
+      />
+      <img
+        class="bg-pattern"
+        id="bg-pattern-bottom"
+        src="images/bg-pattern-bottom.svg"
+        alt="BG Pattern Bottom"
+      />
+      <div class="card-wrapper flex-row">
+        <div class="card flex-column">
+          <div class="user-bg">
+            <img src="images/bg-pattern-card.svg" alt="BG Pattern Card" />
           </div>
-          <div class="user-info flex-column">
-            <span id="name">Victor Crest</span>
-            <span id="age">26</span>
-            <span id="place">London</span>
-          </div>
-          <div class="user-stats flex-row">
-            <div id="followers">
-              <span class="stat-number">80k</span>
-              <span class="stat-title">Followers</span>
+          <div class="user">
+            <div class="user-img">
+              <img src="images/image-victor.jpg" alt="Profile Picture" />
             </div>
-            <div id="likes">
-              <span class="stat-number">803k</span>
-              <span class="stat-title">Likes</span>
+            <div class="user-info flex-column">
+              <span id="name">Victor Crest</span>
+              <span id="age">26</span>
+              <span id="place">London</span>
             </div>
-            <div id="photos">
-              <span class="stat-number">1.4k</span>
-              <span class="stat-title">Photos</span>
+            <div class="user-stats flex-row">
+              <div id="followers">
+                <span class="stat-number">80k</span>
+                <span class="stat-title">Followers</span>
+              </div>
+              <div id="likes">
+                <span class="stat-number">803k</span>
+                <span class="stat-title">Likes</span>
+              </div>
+              <div id="photos">
+                <span class="stat-number">1.4k</span>
+                <span class="stat-title">Photos</span>
+              </div>
             </div>
           </div>
         </div>
