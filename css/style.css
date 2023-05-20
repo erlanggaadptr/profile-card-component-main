@@ -39,6 +39,7 @@ main {
 }
 
 .card {
+  max-width: auto;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 5px 50px 10px rgba(0, 0, 0, 0.25);
@@ -46,5 +47,33 @@ main {
   z-index: 1;
   align-items: center;
   justify-content: center;
-  
+}
+
+.user-img {
+  transform: translate(0, -50%);
+}
+
+.user-img img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.user-wrapper {
+  margin-top: -4rem;
+  padding: 2rem 0;
+  align-self: stretch;
+  justify-content: space-between;
+  text-align: center;
+  gap: 2rem;
+}
+
+.user-info {
+  border-bottom: 1px solid var(--line-col);
+  padding-bottom: 2rem;
+}
+
+.user-stats {
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
