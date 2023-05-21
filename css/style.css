@@ -16,6 +16,7 @@ main {
   background-color: var(--main-bg-col);
   min-height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 .bg-pattern {
@@ -47,6 +48,7 @@ main {
   z-index: 1;
   align-items: center;
   justify-content: center;
+  margin: 2rem;
 }
 
 .user-bg {
